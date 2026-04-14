@@ -1,0 +1,776 @@
+[
+  {
+    "groupId": 0,
+    "records": [
+      {
+        "tsid": "LPD05340dbbdp_SST_from_d18O",
+        "dataSetName": "893A.Kennet.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_183",
+        "dataSetName": "Ocn-SantaBarbaraBasin.Zhao.2000",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD28794972dp_SST_from_d18O2",
+        "dataSetName": "893A.Kennet.2007",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 1,
+    "records": [
+      {
+        "tsid": "LPD7abab671",
+        "dataSetName": "Ant-DSS.DahlJensen.1999",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD7abab671-dup",
+        "dataSetName": "LawDome.Dahl-Jensen.1999",
+        "decision": "remove"
+      }
+    ],
+    "notes": "removed by exact duplicate detection"
+  },
+  {
+    "groupId": 2,
+    "records": [
+      {
+        "tsid": "Ant_023",
+        "dataSetName": "Ant-PlateauRemote.Mosley-Thompson.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "WEB2fbd7e47",
+        "dataSetName": "PlateauRemote.MosleyThompson.1996",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 3,
+    "records": [
+      {
+        "tsid": "Ant_025",
+        "dataSetName": "Ant-TALDICE.Stenni.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "Rzr1TEfhyeB",
+        "dataSetName": "TALDICE.Mezgec.2017",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 4,
+    "records": [
+      {
+        "tsid": "LPDb9285123",
+        "dataSetName": "Ant-WAIS-Divide.Severinghaus.2012",
+        "decision": "keep"
+      },
+      {
+        "tsid": "WEBf4040255",
+        "dataSetName": "WAISDivide.Cuffey.2016",
+        "decision": "keep"
+      },
+      {
+        "tsid": "WEB7f2f016d",
+        "dataSetName": "WAISDivide.Fegyveresi.2016",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 5,
+    "records": [
+      {
+        "tsid": "Arc_005",
+        "dataSetName": "Arc-CampCentury.Fisher.1969",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYT295BX2KQ",
+        "dataSetName": "Century.Johnsen.1972",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 6,
+    "records": [
+      {
+        "tsid": "Arc_043",
+        "dataSetName": "Arc-DevonIceCap.Fisher.1983",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYT8NX1Q5ZA",
+        "dataSetName": "DevonIceCap.Paterson.1977",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 7,
+    "records": [
+      {
+        "tsid": "Arc_034",
+        "dataSetName": "Arc-Dye.Vinther.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYTAUVXNNEA",
+        "dataSetName": "DYE3.Vinther.2006",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 8,
+    "records": [
+      {
+        "tsid": "Arc_035",
+        "dataSetName": "Arc-GRIP.Vinther.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYTZPNPWL0E",
+        "dataSetName": "GRIP.Vinther.2006",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 9,
+    "records": [
+      {
+        "tsid": "Arc_040",
+        "dataSetName": "Arc-HudsonLake.Clegg.2011",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYTI3HL2Q73",
+        "dataSetName": "Hudson.Clegg.2011",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 10,
+    "records": [
+      {
+        "tsid": "Arc_045",
+        "dataSetName": "Arc-MD992275.Jiang.2005",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_JR51GC_35_uk37_SST_from_uk37",
+        "dataSetName": "JR51GC_35.Bendle.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_045",
+        "dataSetName": "Ocn-NorthIceland.Sicre.2011",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 11,
+    "records": [
+      {
+        "tsid": "Arc_039",
+        "dataSetName": "Arc-MooseLake.Clegg.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "RHLePxbL9rI",
+        "dataSetName": "MooseLake.Clegg.2010",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 12,
+    "records": [
+      {
+        "tsid": "Arc_031",
+        "dataSetName": "Arc-NGRIP1.Vinther.2006",
+        "decision": "keep"
+      },
+      {
+        "tsid": "GH26a3a772",
+        "dataSetName": "NGRIP.NGRIP.2004",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 13,
+    "records": [
+      {
+        "tsid": "Arc_044",
+        "dataSetName": "Arc-PennyIceCapP96.Fisher.1998",
+        "decision": "remove"
+      },
+      {
+        "tsid": "PYTSIOJ5D6Y",
+        "dataSetName": "Penny.Fisher.1998",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 14,
+    "records": [
+      {
+        "tsid": "Arc_056",
+        "dataSetName": "Arc-Renland.Vinther.2008",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYTUAENTJO2",
+        "dataSetName": "Renland.Johnsen.1992",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 15,
+    "records": [
+      {
+        "tsid": "Arc_041",
+        "dataSetName": "Arc-ScreamingLynxLake.Clegg.2011",
+        "decision": "keep"
+      },
+      {
+        "tsid": "R70zKk7ZGum",
+        "dataSetName": "ScreamingLynxLake.Clegg.2011",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 16,
+    "records": [
+      {
+        "tsid": "Arc_037",
+        "dataSetName": "Arc-VoeringPlateau.Berner.2011",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD95_2011_d18o_pachyderma_SST_from_d18o_pachyderma",
+        "dataSetName": "MD95_2011.Risebrobakken.2003",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD95_2011_d18o_pachyderma_d_SST_from_d18o_pachyderma_d",
+        "dataSetName": "MD95_2011.Risebrobakken.2003",
+        "decision": "keep"
+      },
+      {
+        "tsid": "R4z8Co5Aghx",
+        "dataSetName": "MD95_2011Assemblage.Risebrobakken.2003",
+        "decision": "keep"
+      },
+      {
+        "tsid": "RRd6osZyB8H",
+        "dataSetName": "MD95_2011Assemblage.Risebrobakken.2003",
+        "decision": "keep"
+      },
+      {
+        "tsid": "RRGNAojoZVh",
+        "dataSetName": "MD95_2011Assemblage.Risebrobakken.2003",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_105",
+        "dataSetName": "Ocn-MD95-2011.Grimalt.2002",
+        "decision": "remove"
+      }
+    ],
+    "notes": "removed by exact duplicate detection"
+  },
+  {
+    "groupId": 17,
+    "records": [
+      {
+        "tsid": "Asia_335",
+        "dataSetName": "Asi-SO90-39KG_SO130-275KL.Munz.2015",
+        "decision": "keep"
+      },
+      {
+        "tsid": "RfOqYf6ktxg",
+        "dataSetName": "SO90_56KA.Doose-Rolinski.2001",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_114",
+        "dataSetName": "Ocn-ArabianSea.Doose-Rolinski.2001",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 18,
+    "records": [
+      {
+        "tsid": "T2L_BJ8_03_10GGC_d18o_ruber_SST_from_d18o_ruber",
+        "dataSetName": "BJ8_03_10GGC.Linsley.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_135",
+        "dataSetName": "Ocn-MakassarStrait.Linsley.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_BJ8_03_13GGC_mgca_ruber_SST_from_mgca_ruber",
+        "dataSetName": "BJ8_03_13GGC.Linsley.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_BJ8_03_13GGC_d18o_ruber_SST_from_d18o_ruber",
+        "dataSetName": "BJ8_03_13GGC.Linsley.2010",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 19,
+    "records": [
+      {
+        "tsid": "GH14bc173e",
+        "dataSetName": "CapeGhir.Kim.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_112",
+        "dataSetName": "Ocn-CapeGhir.Doose-Rolinski.2007",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 20,
+    "records": [
+      {
+        "tsid": "M2L70fguskmP",
+        "dataSetName": "ClearPond.Hussey.1993",
+        "decision": "keep"
+      },
+      {
+        "tsid": "NAm_3804",
+        "dataSetName": "NAm-ClearPond.Gajewski.1988",
+        "decision": "keep"
+      },
+      {
+        "tsid": "M2L1mbkfqyoP",
+        "dataSetName": "ClearPond.Hussey.1993",
+        "decision": "keep"
+      },
+      {
+        "tsid": "M2Lbtzi9joeP",
+        "dataSetName": "ClearPond.Hussey.1993",
+        "decision": "remove"
+      }
+    ],
+    "notes": "removed by exact duplicate detection"
+  },
+  {
+    "groupId": 21,
+    "records": [
+      {
+        "tsid": "Eur_003",
+        "dataSetName": "Eur-LakeSilvaplana.Larocque-Tobler.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "RdMYb0NYnMr",
+        "dataSetName": "Stazersee.Heiri.2015",
+        "decision": "keep"
+      },
+      {
+        "tsid": "Eur_002",
+        "dataSetName": "Eur-LakeSilvaplana.Trachsel.2010",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 22,
+    "records": [
+      {
+        "tsid": "Eur_001",
+        "dataSetName": "Eur-SpannagelCave.Mangini.2005",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD74b7663d",
+        "dataSetName": "Spannagel.Fohlmeister.2012",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 23,
+    "records": [
+      {
+        "tsid": "T2L_GeoB4905_4_mgca_ruber_pink_SST_from_mgca_ruber_pink",
+        "dataSetName": "GeoB4905_4.Weldeab.2005",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD9cc3baf6-dup",
+        "dataSetName": "Ocn-GulfofGuinea.Weldeab.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_GeoB4905_4_d18o_ruber_pink_SST_from_d18o_ruber_pink",
+        "dataSetName": "GeoB4905_4.Weldeab.2005",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 24,
+    "records": [
+      {
+        "tsid": "T2L_KNR166_JPC26_mgca_ruber_SST_from_mgca_ruber",
+        "dataSetName": "KNR166_JPC26.Schmidt.2011",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_066",
+        "dataSetName": "Ocn-DryTortugasA.Lund.2006",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_KNR166_JPC26_d18o_ruber_SST_from_d18o_ruber",
+        "dataSetName": "KNR166_JPC26.Schmidt.2011",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 25,
+    "records": [
+      {
+        "tsid": "T2L_MD01_2421_uk37_SST_from_uk37",
+        "dataSetName": "MD01_2421.Isono.2009",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_175",
+        "dataSetName": "Ocn-KuroshioCurrent.Isono.2009",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD01_2421_d18o_bulloides_SST_from_d18o_bulloides",
+        "dataSetName": "MD01_2421.Isono.2009",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 26,
+    "records": [
+      {
+        "tsid": "T2L_MD97_2151_tex86_SST_from_tex86",
+        "dataSetName": "MD97_2151.Yamamoto.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD44b374e7",
+        "dataSetName": "Ocn-SouthChinaSea.Zhao.2006",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD97_2151_uk37_SST_from_uk37",
+        "dataSetName": "MD97_2151.Yamamoto.2013",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 27,
+    "records": [
+      {
+        "tsid": "T2L_MD98_2161_mgca_ruber_SST_from_mgca_ruber",
+        "dataSetName": "MD98_2161.Fan.2018",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD7e8e8eaa",
+        "dataSetName": "Ocn-MD98-2160.Newton.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD98_2161_d18o_ruber_SST_from_d18o_ruber",
+        "dataSetName": "MD98_2161.Fan.2018",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 28,
+    "records": [
+      {
+        "tsid": "T2L_MD98_2176_d18o_ruber_SST_from_d18o_ruber",
+        "dataSetName": "MD98_2176.Stott.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_131",
+        "dataSetName": "Ocn-WEqPacific.Stott.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD98_2176_mgca_ruber_SST_from_mgca_ruber",
+        "dataSetName": "MD98_2176.Stott.2007",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 29,
+    "records": [
+      {
+        "tsid": "T2L_MD98_2181_d18o_ruber_SST_from_d18o_ruber",
+        "dataSetName": "MD98_2181.Stott.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD1a0245b7",
+        "dataSetName": "Ocn-Philippines.Stott.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MD98_2181_mgca_ruber_SST_from_mgca_ruber",
+        "dataSetName": "MD98_2181.Stott.2007",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 30,
+    "records": [
+      {
+        "tsid": "T2L_MD99_2251_mgca_bulloides_SST_from_mgca_bulloides",
+        "dataSetName": "MD99_2251.Farmer.2008",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_047",
+        "dataSetName": "Ocn-SouthIceland.Sicre.2011",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 31,
+    "records": [
+      {
+        "tsid": "T2L_PC01_uk37_SST_from_uk37",
+        "dataSetName": "MR003-K03-PC01.Harada.2004",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_146",
+        "dataSetName": "Ocn-NorthwestPacificOcean.Harada.2004",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 32,
+    "records": [
+      {
+        "tsid": "T2L_MSM05_5_712_2_mgca_pachyderma_SST_from_mgca_pachyderma",
+        "dataSetName": "MSM05_5_712_2.Werner.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_007",
+        "dataSetName": "Ocn-WesternSvalbard.Spielhagen.2011",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_MSM05_5_712_2_d18o_pachyderma_SST_from_d18o_pachyderma",
+        "dataSetName": "MSM05_5_712_2.Werner.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYTLX9PMLVS",
+        "dataSetName": "MSM05-712.Muller.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "PYTS0ELQKO1",
+        "dataSetName": "MSM05-712.Muller.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPDa0c5bf8a",
+        "dataSetName": "MSM055_712-2.Werner.2015",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 33,
+    "records": [
+      {
+        "tsid": "T2L_OCE326_GGC26_d18o_pachyderma_SST_from_d18o_pachyderma",
+        "dataSetName": "OCE326_GGC26.Keigwin.2005",
+        "decision": "keep"
+      },
+      {
+        "tsid": "O2kLR_030",
+        "dataSetName": "Ocn-LaurentianFan.Keigwin.2005",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_OCE326_GGC26_uk37_SST_from_uk37",
+        "dataSetName": "OCE326_GGC26.Keigwin.2005",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 34,
+    "records": [
+      {
+        "tsid": "LPD0e0867fe",
+        "dataSetName": "Ocn-AlboranSea436B.Nieto-Moreno.2013",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPDe6c52b99",
+        "dataSetName": "TTR17_434G.Rodrigo-Gamiz.2014",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD44c75538_SST_from_Uk37",
+        "dataSetName": "TTR17_434G.Rodrigo-Gamiz.2014",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 35,
+    "records": [
+      {
+        "tsid": "LPDbd07f717",
+        "dataSetName": "Ocn-ODP984.Came.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_ODP162_984_mgca_pachyderma_d_SST_from_mgca_pachyderma_d",
+        "dataSetName": "ODP162_984.Came.2007",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_ODP162_984_d18o_pachyderma_d_SST_from_d18o_pachyderma_d",
+        "dataSetName": "ODP162_984.Came.2007",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 36,
+    "records": [
+      {
+        "tsid": "LPDb17a5e9e-dup",
+        "dataSetName": "Ocn-RAPiD-12-1K.Thornalley.2009",
+        "decision": "remove"
+      },
+      {
+        "tsid": "T2L_RAPiD_12_1K_mgca_bulloides_SST_from_mgca_bulloides",
+        "dataSetName": "RAPiD_12_1K.Thornalley.2010",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_RAPiD_12_1K_d18o_bulloides_SST_from_d18o_bulloides",
+        "dataSetName": "RAPiD_12_1K.Thornalley.2010",
+        "decision": "keep"
+      }
+    ],
+    "notes": "removed by exact duplicate detection"
+  },
+  {
+    "groupId": 37,
+    "records": [
+      {
+        "tsid": "O2kLR_082",
+        "dataSetName": "Ocn-SubTropicalEasternNorthAtlantic.deMenocal.2000",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPDb217bdbexxxx_SST_from_Uk37",
+        "dataSetName": "ODP658C_UK37.Zhao.1995",
+        "decision": "keep"
+      },
+      {
+        "tsid": "LPD493f1394xxxx",
+        "dataSetName": "ODP658C.deMenocal.1997",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "groupId": 38,
+    "records": [
+      {
+        "tsid": "LPD2a3997a7",
+        "dataSetName": "Ocn-WesternAntarcticPeninsula.Shevenell.2011",
+        "decision": "keep"
+      },
+      {
+        "tsid": "T2L_ODP_178_1098B_tex86_SST_from_tex86",
+        "dataSetName": "ODP_178_1098B.Shevenell.2011",
+        "decision": "keep"
+      }
+    ],
+    "notes": null
+  }
+]
