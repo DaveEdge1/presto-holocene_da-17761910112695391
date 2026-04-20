@@ -54,20 +54,50 @@ def coefficient_of_efficiency(obs, pred):
 
 
 def align_series(time_a, val_a, time_b, val_b, ymin=None, ymax=None):
-    ages_a = np.asarray(time_a, dtype=int)
-    ages_b = np.asarray(time_b, dtype=int)
-    common = np.intersect1d(ages_a, ages_b)
+    """Align two series onto the coarser series' grid over their overlap in BP.
+
+    For Holocene data, sampling grids usually don't share exact integer ages
+    (e.g. reconstruction at 49, 149, ... vs reference at 0, 100, ...), so we
+    interpolate the finer series onto the coarser series' ages within the
+    shared range. Returns (common_ages, values_from_a, values_from_b).
+    """
+    ages_a = np.asarray(time_a, dtype=float)
+    ages_b = np.asarray(time_b, dtype=float)
+    val_a = np.asarray(val_a, dtype=float)
+    val_b = np.asarray(val_b, dtype=float)
+
+    # Drop NaNs and sort each
+    mask_a = np.isfinite(ages_a) & np.isfinite(val_a)
+    mask_b = np.isfinite(ages_b) & np.isfinite(val_b)
+    ages_a, val_a = ages_a[mask_a], val_a[mask_a]
+    ages_b, val_b = ages_b[mask_b], val_b[mask_b]
+    if len(ages_a) == 0 or len(ages_b) == 0:
+        return np.array([]), np.array([]), np.array([])
+    oa = np.argsort(ages_a); ages_a, val_a = ages_a[oa], val_a[oa]
+    ob = np.argsort(ages_b); ages_b, val_b = ages_b[ob], val_b[ob]
+
+    lo = max(ages_a.min(), ages_b.min())
+    hi = min(ages_a.max(), ages_b.max())
     if ymin is not None:
-        common = common[common >= ymin]
+        lo = max(lo, ymin)
     if ymax is not None:
-        common = common[common <= ymax]
-    if len(common) == 0:
-        return common, np.array([]), np.array([])
-    order_a = np.argsort(ages_a)
-    order_b = np.argsort(ages_b)
-    idx_a = order_a[np.searchsorted(ages_a[order_a], common)]
-    idx_b = order_b[np.searchsorted(ages_b[order_b], common)]
-    return common, val_a[idx_a], val_b[idx_b]
+        hi = min(hi, ymax)
+    if hi <= lo:
+        return np.array([]), np.array([]), np.array([])
+
+    # Pick the coarser-sampled series as the reference grid to avoid manufacturing information.
+    dt_a = np.median(np.diff(ages_a)) if len(ages_a) > 1 else np.inf
+    dt_b = np.median(np.diff(ages_b)) if len(ages_b) > 1 else np.inf
+    if dt_a >= dt_b:
+        common = ages_a[(ages_a >= lo) & (ages_a <= hi)]
+        out_a = val_a[(ages_a >= lo) & (ages_a <= hi)]
+        out_b = np.interp(common, ages_b, val_b)
+    else:
+        common = ages_b[(ages_b >= lo) & (ages_b <= hi)]
+        out_b = val_b[(ages_b >= lo) & (ages_b <= hi)]
+        out_a = np.interp(common, ages_a, val_a)
+
+    return common, out_a, out_b
 
 
 def load_reference(csv_path):
